@@ -1,6 +1,6 @@
 ## Ejecutar con Docker
 
-1. Asegúrate de tener Docker y Docker Compose instalados en tu sistema.
+1. Instalar docker.
 2. Clona este repositorio y navega al directorio del proyecto.
 3. Ejecuta `docker-compose up --build` para construir y levantar la aplicación y la base de datos.
 4. Ejecuta `docker exec <ID DE LA APP EN DOCKER> npx sequelize-cli db:migrate` para migrar las tablas a la base de datos.
